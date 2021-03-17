@@ -1,2 +1,10 @@
 # ChiGPU
 A GPU-accelerated set of programs to diagonalize tight-binding Hamiltonians and calculate the real part of the charge susceptibility (Lindhard susceptibility).
+
+
+# Requirements
+nvcc compiler (CUDA Toolkit). Confirmed to work for CUDA Toolkit 11.0, probably back-compatible to CUDA Toolkit 10.0.
+
+
+# Typical usage
+We expect the user to use Wannier90 to generate the tight-binding moddel, with flag write_hr=.true. or write_tb=.true. Some lines in the files need to be deleted. 
