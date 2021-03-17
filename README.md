@@ -7,4 +7,6 @@ nvcc compiler (CUDA Toolkit). Confirmed to work for CUDA Toolkit 11.0, probably 
 
 
 # Typical usage
-We expect the user to use Wannier90 to generate the tight-binding moddel, with flag write_hr=.true. or write_tb=.true. Some lines in the files need to be deleted. 
+We expect the user to use Wannier90 to generate the tight-binding moddel, with flag write_hr=.true. or write_tb=.true. Some lines in the files need to be deleted; the util/wannier_filter_hr.py script will do that. 
+
+
