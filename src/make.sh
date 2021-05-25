@@ -1,3 +1,5 @@
+## assuming you've installed the CUDA toolkit, below you can specify your own include directory.
+
 nvcc --use_fast_math -c -I/usr/lib/cuda-10.2/include bandstruct_TB_GPU_complex.cu
 
 g++ -O3 -o bandstruct_TB_batch_gpu_complex bandstruct_TB_GPU_complex.o -L/usr/lib/cuda-10.2/lib64 -lcusolver -lcudart
