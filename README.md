@@ -16,8 +16,8 @@ We expect the user to use Wannier90 to generate the tight-binding moddel, with f
 
 # Input File Format
 
-# You must have a tight-binding data file on hand, with the following format:
-# {Rx} {Ry} {Rz} {orb1} {orb2} {Real part of H} {Imag part of H}
+You must have a tight-binding data file on hand, with the following format:
+{Rx} {Ry} {Rz} {orb1} {orb2} {Real part of H} {Imag part of H}
 
-# {Rx, Ry, Rz} are the unit cell numbers in x,y,z directions
-# {orb1, orb2} are the tight-binding orbitals used, output by wannier90 or made by hand. They are just numbered 1-{norb}.
+{Rx, Ry, Rz} are the unit cell numbers in x,y,z directions
+{orb1, orb2} are the tight-binding orbitals used, output by wannier90 or made by hand. They are just numbered 1-{norb}.
